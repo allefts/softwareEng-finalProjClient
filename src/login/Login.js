@@ -1,11 +1,19 @@
 import ScrollToTopOnMount from "../template/ScrollToTopOnMount";
+import loginBG from "../bg.jpg";
 
 const Login = () => {
   return (
-    <div style={{ marginTop: "56px", height: "100vh" }}>
+    <div
+      style={{
+        height: "100vh",
+        backgroundImage: `url(${loginBG})`,
+        backgroundSize: "cover",
+      }}
+      className="bg-image"
+    >
       <ScrollToTopOnMount />
-      <div className="container-sm p-5">
-        <form>
+      <div className="container-xs h-100 d-flex justify-content-center align-items-center">
+        <form className="container p-5 bg-light">
           <div className="mb-3">
             <label htmlFor="exampleInputEmail1" className="form-label">
               Email address
