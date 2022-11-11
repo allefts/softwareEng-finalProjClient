@@ -1,4 +1,3 @@
-import ScrollToTopOnMount from "../template/ScrollToTopOnMount";
 import loginBG from "../bg.jpg";
 
 const Login = () => {
@@ -11,9 +10,8 @@ const Login = () => {
       }}
       className="bg-image"
     >
-      <ScrollToTopOnMount />
       <div className="container-xs h-100 d-flex justify-content-center align-items-center">
-        <form className="container p-5 bg-light">
+        <form className="container p-5 bg-light shadow-sm">
           <div className="mb-3">
             <label htmlFor="exampleInputEmail1" className="form-label">
               Email address

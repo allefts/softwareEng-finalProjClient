@@ -1,7 +1,10 @@
-$primary:       #212529;
-$secondary:     #0d6efd;
+// $primary:       #212529;
+// $secondary:     #0d6efd;
 //$border-color: rgba(255,255,255,.15);
+$gray: #6c757d;
+$gray-dark: #343a40;
 
-$navbar-light-color: rgba(0,0,0, .4);
+$bg-primary: #ffffff;
 
+// $navbar-light-color: rgba(0, 0, 0, 0.4);
 @import "../node_modules/bootstrap/scss/bootstrap";
