@@ -10,8 +10,17 @@ const Login = () => {
       }}
       className="bg-image"
     >
-      <div className="container-xs h-100 d-flex justify-content-center align-items-center">
-        <form className="container p-5 bg-light shadow-sm">
+      <div className="container-xs h-100 d-flex justify-content-center align-items-center flex-column p-5">
+        <div
+          className="container text-light p-5"
+          style={{ maxWidth: "1000px" }}
+        >
+          <h1>Login</h1>
+        </div>
+        <form
+          className="container p-5 shadow-sm"
+          style={{ maxWidth: "1000px", backgroundColor: "#CFCDD4" }}
+        >
           <div className="mb-3">
             <label htmlFor="exampleInputEmail1" className="form-label">
               Email address

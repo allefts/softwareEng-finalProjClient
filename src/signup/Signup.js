@@ -1,8 +1,24 @@
+import loginBG from "../bg.jpg";
+
 const SignUp = () => {
   return (
-    <div style={{ marginTop: "56px", height: "100vh" }}>
-      <div className="container h-100 d-flex justify-content-center align-items-center">
-        <form className="row g-3 p-5 shadow-sm">
+    <div
+      style={{
+        marginTop: "56px",
+        height: "100vh",
+        backgroundImage: `url(${loginBG})`,
+        backgroundSize: "cover",
+      }}
+    >
+      <div className="container h-100 d-flex justify-content-center align-items-center flex-column">
+        <div className="container p-5 text-light">
+          <h1>Sign Up</h1>
+          <h3>Start your straw journey today!</h3>
+        </div>
+        <form
+          className="row p-5 shadow-sm"
+          style={{ backgroundColor: "#CFCDD4" }}
+        >
           <div className="col-md-6">
             <label htmlFor="firstName" className="form-label">
               First Name

@@ -46,17 +46,17 @@ function Header() {
                 </Link>
               </li>
             </ul>
-            <button
-              type="button"
+            <Link
+              to="/cart"
               className="btn btn-outline-dark me-3 d-none d-lg-inline"
             >
               <FontAwesomeIcon icon={["fas", "shopping-cart"]} />
               <span className="ms-3 badge rounded-pill bg-dark">0</span>
-            </button>
+            </Link>
             <ul className="navbar-nav mb-2 mb-lg-0">
               <li className="nav-item dropdown">
                 <a
-                  href="!#"
+                  href="_"
                   className="nav-link dropdown-toggle"
                   data-toggle="dropdown"
                   id="userDropdown"

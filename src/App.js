@@ -5,6 +5,7 @@ import Landing from "./landing/Landing";
 import ProductList from "./products/ProductList";
 import SignUp from "./signup/Signup";
 import Login from "./login/Login";
+import Cart from "./cart/Cart";
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route path="/login" exact>
           <Login />
+        </Route>
+        <Route path="/cart" exact>
+          <Cart />
         </Route>
       </Switch>
     </Template>
